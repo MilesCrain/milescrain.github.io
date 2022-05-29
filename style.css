@@ -2,8 +2,12 @@
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
+html {
+    overflow-x:hidden;
+}
 header {
     width:100%;
     text-align:center;
@@ -29,28 +33,31 @@ section {
     float: left;
 }
 
+
 #about-us-section{
-    background-color: purple;
+    background-color: gray;
     min-width: 100%;
 }
 
 #about-us-header{
     position: relative;
-    left: 50%;
-    color: pink;
+    right: 25%;
+    color: white;
 }
 
 .about-us-info {
     display: inline;
-    color: pink;
+    color: white;
     position: relative;
     right: 20%;
+
 }
 
 section li {
     margin-bottom: 30px;
     font-size: 20px;
     text-align: left;
+    position: relative;
 }
 
 a {
@@ -61,18 +68,16 @@ a {
 .footer-li{
     display: inline-block;
     margin: 10%;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
-.mySlides {display: none;
-}
-
 .product-image {
-    height: 100%;
-    width: 25%;
+    display: inline-block;
+    position: static;
+    height: auto;
+    width: 24.5%;
    margin: 0px;
-   float: right;
 }
 
 .product-image-left{
@@ -80,6 +85,8 @@ a {
     width: 25%;
    margin: 0px;
    float: left;
+   position: relative;
+   top: 0;
    margin-right: 25%;
 }
 
@@ -103,12 +110,12 @@ footer{
     position: fixed;
     bottom: 0px;
     min-width: 100%;
-    height: 100px;
+    height: 75px;
 }
 
 #holder{
     background-color: white;
-    height: 100px;
+    height: 75px;
     min-width: 100%;
 }
 
