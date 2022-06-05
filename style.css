@@ -53,6 +53,7 @@ section {
     right: 20%;
     font-size: larger;
     word-wrap: break-word;
+    float: top;
     
 }
 
