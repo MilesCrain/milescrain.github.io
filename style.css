@@ -76,8 +76,8 @@ a {
     display: inline-block;
     position: static;
     height: auto;
-    width: 24.5%;
-   margin: 0px;
+    width: 25%;
+   margin-right: -4px;
 }
 
 .product-image-left{
