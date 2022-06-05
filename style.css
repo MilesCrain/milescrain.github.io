@@ -49,11 +49,11 @@ section {
 .about-us-info {
     display: inline;
     color: white;
-    position: relative;
+    position: absolute;
     font-size: larger;
     word-wrap: break-word;
-    right: 15em;
-    color:wheat;
+    left: 30%;
+    color:white;
 }
 
 section li {
